@@ -1,7 +1,6 @@
 package ru.testproject.calculator;
 
 public class Calculator {
-// sum of integers
     public int sum(int a, int b) {
         return a + b;
     }
