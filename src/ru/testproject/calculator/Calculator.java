@@ -11,5 +11,7 @@ public class Calculator {
         return result;
     }
 
-
+    public int multiplication(int a, int b) {
+        return 10;
+    }
 }
