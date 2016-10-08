@@ -7,7 +7,7 @@ public class Loop1 {
         showMeMassive(a);
 
         for (int i = 0; i < a.length; i++) {
-            a[i] = i;
+            a[i] = 1;
         }
 
         showMeMassive(a);
