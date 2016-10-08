@@ -10,6 +10,9 @@ public class Calculator {
         int result = reducing - subtrahend;
         return result;
     }
-
+// ,jhkgvkhjg
+    public int devision(int a, int b) {
+        return a/b;
+    }
 
 }
