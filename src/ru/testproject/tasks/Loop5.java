@@ -3,7 +3,7 @@ package ru.testproject.tasks;
 /**
  * Created by 1 on 08.10.2016.
  */
-public class Loop4 {
+public class Loop5 {
     public static void main(String[] args) {
         int a[][] = new int[10][10];
 
@@ -13,7 +13,7 @@ public class Loop4 {
         for (int i = 0; i < a.length; i++) {
             for (int j = 0; j < a.length; j++) {
 
-                if (i > j) {
+                if (i > 4 - j && i > j - 4 && j > i - 5 && i < 15 - j) {
                     m = 1;
                 } else {
                     m = 0;
@@ -23,23 +23,9 @@ public class Loop4 {
             }
         }
         ShowMeMatrix(a);
-        System.out.println("=========================");
 
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a.length; j++) {
 
-                if (i < 10 - j) {
-                    m = 1;
-                } else {
-                    m = 0;
-                }
-                a[i][j] = m;
 
-            }
-
-        }
-        ShowMeMatrix(a);
-        System.out.println("=========================");
 
             }
 

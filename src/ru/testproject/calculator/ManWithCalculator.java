@@ -10,4 +10,14 @@ public class ManWithCalculator {
     public int calculateSum(int a, int b) {
         return calculator.sum(a, b);
     }
+
+    public int calculateSubtraction(int a, int b) {
+        return calculator.subtraction(a, b);
+    }
+    public int clculateMultiplcation(int a, int b) {
+        return calculator.multiplication(a, b);
+    }
+    public int calculateDivision(int a, int b) {
+        return calculator.division(a, b);
+    }
 }

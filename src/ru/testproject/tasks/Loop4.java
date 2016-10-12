@@ -41,7 +41,40 @@ public class Loop4 {
         ShowMeMatrix(a);
         System.out.println("=========================");
 
+
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a.length; j++){
+
+                if (i < j) {
+                    m = 1;
+                } else{
+                    m = 0;
+                }
+                a[i][j] = m;
             }
+        }
+        ShowMeMatrix(a);
+        System.out.println("=========================");
+
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a.length; j++) {
+
+                if (i > 10 - j) {
+                    m = 1;
+                } else {
+                    m = 0;
+                }
+                a[i][j] = m;
+
+            }
+
+        }
+        ShowMeMatrix(a);
+        System.out.println("=========================");
+
+
+    }
+
 
     public static void ShowMeMatrix(int[][] a) {
         for (int j = 0; j < a.length; j++) {
