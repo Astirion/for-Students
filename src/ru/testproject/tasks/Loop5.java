@@ -23,7 +23,7 @@ public class Loop5 {
 System.out.println("==========");
 
         int[][] b = new int[10][10];
-        for (int k = 9; k > (b.length - b.length - 1); k--){
+        for (int k = 0; k > (b.length - b.length - 1); k--){
             for (int f = 0; f < b.length; f++) {
                 if (k < (b.length - f)){
                     b[k][f] = 1;
