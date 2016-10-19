@@ -12,16 +12,20 @@ public class Example1 {
         String output;
 
         switch (input) {
-            case 1: output = "Новая игра";
+            case 1:
+                output = "Новая игра";
                 break;
-            case 2: output = "Сохранить игру";
+            case 2:
+                output = "Сохранить игру";
                 break;
-            case 3: output = "Загрузить игру";
+            case 3:
+                output = "Загрузить игру";
                 break;
-            case 4: output = "Выход";
+            case 4:
+                output = "Выход";
                 break;
-            default: output = "Неверная команда";
-
+            default:
+                output = "Неверная команда";
         }
 
         System.out.println(output);
