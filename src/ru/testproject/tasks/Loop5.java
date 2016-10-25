@@ -23,7 +23,7 @@ public class Loop5 {
 System.out.println("==========");
 
         int[][] b = new int[10][10];
-        for (int k = 0; k > (b.length - b.length - 1); k--){
+        for (int k = 9; k > -1; k--){
             for (int f = 0; f < b.length; f++) {
                 if (k < (b.length - f)){
                     b[k][f] = 1;
@@ -40,7 +40,7 @@ System.out.println("==========");
 
         int[][] c = new int[10][10];
         for (int q = 0; q < c.length; q++){
-            for (int w = 9; w > (c.length - c.length - 1); w--) {
+            for (int w = 9; w > -1; w--) {
                 if (q < (c.length - w)){
                     c[q][w] = 1;
                 }
@@ -55,8 +55,8 @@ System.out.println("==========");
         System.out.println("==========");
 
         int[][] d = new int[10][10];
-        for (int e = 9; e > (d.length - d.length -1); e--){
-            for (int r = 9; r > (d.length - d.length -1); r--) {
+        for (int e = 9; e > -1; e--){
+            for (int r = 9; r > -1; r--) {
                 if (e < (d.length - r)){
                     d[e][r] = 1;
                 }
