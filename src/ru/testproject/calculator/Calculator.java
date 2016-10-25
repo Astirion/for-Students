@@ -2,16 +2,20 @@ package ru.testproject.calculator;
 
 public class Calculator {
 
-    public int sum(int a, int b) {
+    public double sum(double a, double b) {
         return a + b;
     }
 
-    public int subtraction(int reducing, int subtrahend) {
-        int result = reducing - subtrahend;
-        return result;
+    public double subtraction(double reducing, double subtrahend) {
+        double subtraction = reducing - subtrahend;
+        return subtraction;
     }
 
-    public int multiplication(int a, int b) {
-        return 10;
+    public double multiplication(double multiplicand, double multiplier) {
+        return multiplicand * multiplier;
     }
+    public double division (double dividend, double divider){
+        return dividend / divider;
+    }
+
 }
